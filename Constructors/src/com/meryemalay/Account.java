@@ -9,7 +9,7 @@ public class Account {
 
     //constructor: esentially initialize the object that you are creating
     public Account(){
-        this(12345, 100.00, "Osman Bostan", "osmanbostan@gmail.com","123456789");
+        this(12345, 100.00, "Default Name", "xyz@gmail.com","123456789");
         System.out.println("Empty constructor called");
     }
 
@@ -22,13 +22,17 @@ public class Account {
         this.customerPhoneNumber = customerPhoneNumber;
     }
 
+    public Account(String customerName, String customerEmailAddress, String customerPhoneNumber) {
+        this(99999, 200.00,customerName,customerEmailAddress,customerPhoneNumber);
+    }
+
     public void deposit(double depositAmount){
         this.balance += depositAmount;
         System.out.println("Deposit of "+ depositAmount + " made. New balance is " + this.balance);
     }
 
     public void withdraw(double withdrawAmount){
-        if(this.balance - withdrawAmount <= 0){
+        if(this.balance - withdrawAmount < 0){
             System.out.println("Only " +this.balance + " available. Withdrawel not processed." );
         }else{
             this.balance -=withdrawAmount;
