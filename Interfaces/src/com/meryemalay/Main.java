@@ -3,11 +3,16 @@ package com.meryemalay;
 public class Main {
 
     public static void main(String[] args) {
-	    ITelephone merysPhpne;
-	    merysPhpne = new DeskTelephone(6575876);
+        ITelephone merysPhone;
+        merysPhone = new DeskTelephone(6575876);
 
-	    merysPhpne.powerOn();
-	    merysPhpne.callPhone(6575876);
-	    merysPhpne.answer();
+        merysPhone.powerOn();
+        merysPhone.callPhone(6575876);
+        merysPhone.answer();
+
+        merysPhone = new MobilePhone(112233);
+        merysPhone.powerOn();
+        merysPhone.callPhone(112233);
+        merysPhone.answer();
     }
 }
