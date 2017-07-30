@@ -8,6 +8,7 @@ public class Main {
     public static int[] baseData = new int[10];
 
     public static void main(String[] args) {
+        System.out.println("hhhh");
 	    /*getInput();
 	    printArray(baseData);
 	    resizeArray();
