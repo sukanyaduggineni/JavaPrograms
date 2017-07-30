@@ -1,12 +1,14 @@
 package com.meryemalay;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
 
     public static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
-	    int[] array = getIntegers(5);
+	    int[] array = getIntegers(3);
 	    int[] sortedArray = sortArray(array);
 	    printArray(sortedArray);
     }
@@ -27,10 +29,12 @@ public class Main {
     }
 
     public static int[] sortArray(int[] array){
-        int[] sortedArray = new int[array.length];
+        /*int[] sortedArray = new int[array.length];
         for (int i = 0; i <array.length ; i++) {
             sortedArray[i] = array[i];
-        }
+        }*/
+
+        int[] sortedArray = Arrays.copyOf(array, array.length);
 
         int temp;
         boolean flag = true;
