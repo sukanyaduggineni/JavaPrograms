@@ -25,6 +25,8 @@ public class Demo {
         placesToVisit.remove(4);
         printList(placesToVisit);
 
+        System.out.println("... " +placesToVisit.get(3));
+
 
     }
 
