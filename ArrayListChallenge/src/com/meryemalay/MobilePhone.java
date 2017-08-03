@@ -4,19 +4,15 @@ import java.util.ArrayList;
 
 public class MobilePhone {
 
-    ArrayList<Contacts> listOfContacts = new ArrayList<>();
+    private String myNumber;
 
-    public void printMenu(){
-        System.out.println("0 - Print Menu");
-        System.out.println("1 - Show Contacts");
-        System.out.println("2 - Add a contact");
-        System.out.println("3 - Remove a contact");
-        System.out.println("4 - Modify a contact");
-        System.out.println("5 - Search a contact");
-        System.out.println("6 - Quit");
+    ArrayList<Contact> listOfContacts = new ArrayList<>();
+
+    public MobilePhone(String myNumber) {
+        this.myNumber = myNumber;
     }
 
-    public boolean addContact(Contacts contact){
+    public boolean addContact(Contact contact){
         if(findContact(contact) >= 0){
             System.out.println("Contact is already on file");
             return false;
@@ -25,7 +21,7 @@ public class MobilePhone {
         return true;
     }
 
-    public boolean updateContact(Contacts oldContact, Contacts newContact){
+    public boolean updateContact(Contact oldContact, Contact newContact){
         int foundPosition = findContact(oldContact);
         if(foundPosition < 0){
             System.out.println(oldContact.getName() + ", was not found.");
@@ -36,13 +32,24 @@ public class MobilePhone {
         return true;
     }
 
-    private int findContact(Contacts contact){
+    public boolean removeContact(Contact contact){
+        int foundPosition = findContact(contact);
+        if(foundPosition < 0){
+            System.out.println(contact.getName() + ", was not found.");
+            return false;
+        }
+        this.listOfContacts.remove(contact);
+        System.out.println(contact.getName() + ", was deleted.");
+        return true;
+    }
+
+    private int findContact(Contact contact){
         return this.listOfContacts.indexOf(contact);
     }
 
     private int findContact(String name){
         for (int i = 0; i < this.listOfContacts.size(); i++) {
-            Contacts contact = this.listOfContacts.get(i);
+            Contact contact = this.listOfContacts.get(i);
             if(contact.getName().equals(name)){
                 return i;
             }
@@ -51,8 +58,19 @@ public class MobilePhone {
     }
 
 
-    public boolean searchContact(String name, String phoneNumber){
-        return false;
+    public String quiryContact(Contact contact){
+        if(findContact(contact) >= 0){
+            return contact.getName();
+        }
+        return null;
     }
 
+    public void printContacts() {
+        System.out.println("Contact List");
+        for (int i = 0; i < this.listOfContacts.size(); i++) {
+            System.out.println((i + 1) + ". " +
+                        this.listOfContacts.get(i).getName() + " -> " +
+                        this.listOfContacts.get(i).getPhoneNumber());
+        }
+    }
 }
