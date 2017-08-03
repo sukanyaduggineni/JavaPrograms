@@ -58,10 +58,19 @@ public class MobilePhone {
     }
 
 
-    public String quiryContact(Contact contact){
+    public String queryContact(Contact contact){
         if(findContact(contact) >= 0){
             return contact.getName();
         }
+        return null;
+    }
+
+    public Contact queryContact(String name){
+        int foundPosition = findContact(name);
+        if(foundPosition >= 0){
+            return this.listOfContacts.get(foundPosition);
+        }
+
         return null;
     }
 

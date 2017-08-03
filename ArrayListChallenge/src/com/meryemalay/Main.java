@@ -3,6 +3,18 @@ package com.meryemalay;
 import java.util.Scanner;
 
 public class Main {
+    // Create a program that implements a simple mobile phone with the following capabilities.
+    // Able to store, modify, remove and query contact names.
+    // You will want to create a separate class for Contacts (name and phone number).
+    // Create a master class (MobilePhone) that holds the ArrayList of Contacts
+    // The MobilePhone class has the functionality listed above.
+    // Add a menu of options that are available.
+    // Options:  Quit, print list of contacts, add new contact, update existing contact, remove contact
+    // and search/find contact.
+    // When adding or updating be sure to check if the contact already exists (use name)
+    // Be sure not to expose the inner workings of the Arraylist to MobilePhone
+    // e.g. no ints, no .get(i) etc
+    // MobilePhone should do everything with Contact objects only.
 
     public static Scanner scanner = new Scanner(System.in);
     public static MobilePhone mobilePhone = new MobilePhone("123456");
@@ -58,6 +70,54 @@ public class Main {
         }
     }
 
+    private static void updateContact(){
+        System.out.println("Enter existing contact name: ");
+        String name = scanner.nextLine();
+        Contact existingContactRecord = mobilePhone.queryContact(name);
+        if(existingContactRecord == null){
+            System.out.println("Contact not found.");
+            return;
+        }
+        System.out.println("Enter new contact name: ");
+        String newName = scanner.nextLine();
+        System.out.println("Enter new phone number: ");
+        String newPhoneNumber = scanner.nextLine();
+        Contact newContact = Contact.createContact(newName, newPhoneNumber);
+        if(mobilePhone.updateContact(existingContactRecord, newContact)){
+            System.out.println("Successfully updated record");
+        }else{
+            System.out.println("Error updating record");
+        }
+    }
+
+    private static void removeContact(){
+        System.out.println("Enter existing contact name: ");
+        String name = scanner.nextLine();
+        Contact existingcontactName = mobilePhone.queryContact(name);
+        if(existingcontactName == null){
+            System.out.println("Contact not found.");
+            return;
+        }
+
+        if(mobilePhone.removeContact(existingcontactName)){
+            System.out.println("Successfully removed record.");
+        }else{
+            System.out.println("Error removing record");
+        }
+    }
+
+    private static void queryContact(){
+        System.out.println("Enter existing contact name: ");
+        String name = scanner.nextLine();
+        Contact existingcontactName = mobilePhone.queryContact(name);
+        if(existingcontactName == null){
+            System.out.println("Contact not found.");
+            return;
+        }
+
+        System.out.println("Name: "+ existingcontactName.getName() + " phone number is " + existingcontactName.getPhoneNumber());
+    }
+
     private static void startPhone(){
         System.out.println("Starting phone");
     }
@@ -72,17 +132,5 @@ public class Main {
                            "5 - query if an existing contact exists\n" +
                            "6 - to print a list of avaible actions.");
         System.out.println("Choose your action: ");
-    }
-
-    private static void removeContact(){
-
-    }
-
-    private static void updateContact(){
-
-    }
-
-    private static void queryContact(){
-
     }
 }
