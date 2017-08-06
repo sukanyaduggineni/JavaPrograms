@@ -25,11 +25,11 @@
       <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/meryemalay/Utilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            <state relative-caret-position="224">
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
-                <element signature="e#1522#1523#0" expanded="true" />
-                <element signature="e#1562#1563#0" expanded="true" />
+                <element signature="e#1545#1546#0" expanded="true" />
+                <element signature="e#1585#1586#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file leaf-file-name="UtilitiesTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/meryemalay/UtilitiesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,9 +69,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="879" />
-    <option name="y" value="67" />
-    <option name="width" value="1184" />
+    <option name="x" value="78" />
+    <option name="y" value="23" />
+    <option name="width" value="2265" />
     <option name="height" value="796" />
   </component>
   <component name="ProjectView">
@@ -144,24 +144,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilitiesTest.removePairs">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.meryemalay.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JUnitChallenge" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-    </configuration>
-    <configuration name="UtilitiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UtilitiesTest.everyNthChar">
+    <configuration name="UtilitiesTest.converter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.meryemalay.*" />
@@ -173,8 +157,58 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.meryemalay" />
       <option name="MAIN_CLASS_NAME" value="com.meryemalay.UtilitiesTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="converter" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UtilitiesTest.everyNthChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.meryemalay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JUnitChallenge" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.meryemalay" />
+      <option name="MAIN_CLASS_NAME" value="com.meryemalay.UtilitiesTest" />
+      <option name="METHOD_NAME" value="everyNthChar" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UtilitiesTest.nullIfOddLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.meryemalay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JUnitChallenge" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.meryemalay" />
+      <option name="MAIN_CLASS_NAME" value="com.meryemalay.UtilitiesTest" />
+      <option name="METHOD_NAME" value="nullIfOddLength" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -251,17 +285,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UtilitiesTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.removePairs_firstExample" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.removePairs" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.removePairs_firstExample" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.removePairs" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.everyNthChar" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.nullIfOddLength" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.converter" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.removePairs" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.removePairs_firstExample" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UtilitiesTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.everyNthChar" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.converter" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.nullIfOddLength" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.removePairs" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.removePairs_firstExample" />
       </list>
     </recent_temporary>
   </component>
@@ -279,36 +316,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UtilitiesTest - 2017.08.06 at 11h 03m 59s.xml">
-      <configuration name="UtilitiesTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_converter - 2017.08.06 at 12h 04m 16s.xml">
+      <configuration name="UtilitiesTest.converter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest - 2017.08.06 at 11h 06m 01s.xml">
-      <configuration name="UtilitiesTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_everyNthChar - 2017.08.06 at 12h 00m 02s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest - 2017.08.06 at 11h 07m 20s.xml">
-      <configuration name="UtilitiesTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_everyNthChar - 2017.08.06 at 12h 05m 38s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest - 2017.08.06 at 11h 12m 52s.xml">
-      <configuration name="UtilitiesTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_everyNthChar - 2017.08.06 at 12h 05m 53s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest_removePairs - 2017.08.06 at 11h 30m 39s.xml">
-      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_everyNthChar - 2017.08.06 at 12h 06m 08s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest_removePairs_firstExample - 2017.08.06 at 11h 17m 50s.xml">
-      <configuration name="UtilitiesTest.removePairs_firstExample" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_everyNthChar - 2017.08.06 at 12h 06m 46s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest_removePairs_firstExample - 2017.08.06 at 11h 20m 05s.xml">
-      <configuration name="UtilitiesTest.removePairs_firstExample" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_everyNthChar - 2017.08.06 at 12h 10m 21s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest_removePairs_firstExample - 2017.08.06 at 11h 20m 31s.xml">
-      <configuration name="UtilitiesTest.removePairs_firstExample" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_everyNthChar - 2017.08.06 at 12h 12m 06s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilitiesTest_removePairs_firstExample - 2017.08.06 at 11h 27m 45s.xml">
-      <configuration name="UtilitiesTest.removePairs_firstExample" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_everyNthChar - 2017.08.06 at 12h 12m 20s.xml">
+      <configuration name="UtilitiesTest.everyNthChar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilitiesTest_nullIfOddLength - 2017.08.06 at 12h 03m 14s.xml">
+      <configuration name="UtilitiesTest.nullIfOddLength" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="879" y="67" width="1184" height="796" extended-state="0" />
+    <frame x="78" y="23" width="2265" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -319,12 +359,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49155405" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57880795" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" x="545" y="191" width="350" height="460" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1589404" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" x="545" y="191" width="350" height="460" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -358,10 +398,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32591623" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57880795" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" x="545" y="191" width="350" height="460" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1589404" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" x="545" y="191" width="350" height="460" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -385,19 +425,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/meryemalay/Utilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        <state relative-caret-position="224">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/meryemalay/UtilitiesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -14,7 +14,7 @@ public class Utilities  {
         char[] result = new char[returnedLenght];
         int index = 0;
 
-        for (int i = 0; i < sourceArray.length; i++) {
+        for (int i = n-1; i < sourceArray.length; i += n) {
             result[index++] = sourceArray[i];
         }
 
@@ -23,13 +23,13 @@ public class Utilities  {
 
 
     // Removes pairs of teh same character that are next
-    // to each other, by removing on an accurrenced of the character.
+    // to each other, by removing on one accurrence of the character.
     // "ABBCDEEF" -> "ABCDEF"
     // "ABCBDEEF" -> "ABCBDEF" (the two B's aren't next to each other, so they)
     public String removePairs(String source){
 
         // If length is less than 2, there won't be any pairs
-        if(source.length() <2){
+        if(source == null || source.length() <2){
             return source;
         }
 
