@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c2ec30e-c8d3-40bc-87b9-d7f374ff5624" name="Default" comment="" />
+    <list default="true" id="fa9d67e5-590f-45d0-b2fd-0c10dbd3d99f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,58 +15,32 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/meryemalay/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/meryemalay/Utilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
               <folding>
-                <element signature="e#89#90#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#1522#1523#0" expanded="true" />
+                <element signature="e#1562#1563#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankAccount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/meryemalay/BankAccount.java">
+      <file leaf-file-name="UtilitiesTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/meryemalay/UtilitiesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-              <folding>
-                <element signature="e#1077#1078#0" expanded="true" />
-                <element signature="e#1107#1108#0" expanded="true" />
-                <element signature="e#1141#1142#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BankAccountTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/meryemalay/BankAccountTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-              <folding>
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#1688#1689#0" expanded="true" />
-                <element signature="e#1777#1778#0" expanded="true" />
-                <element signature="e#1827#1828#0" expanded="true" />
-                <element signature="e#1883#1884#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
-                <element signature="e#2039#2040#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BankAccountTestParameterized.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/meryemalay/BankAccountTestParameterized.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -89,17 +63,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/meryemalay/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/meryemalay/BankAccount.java" />
-        <option value="$PROJECT_DIR$/src/com/meryemalay/BankAccountTest.java" />
-        <option value="$PROJECT_DIR$/src/com/meryemalay/BankAccountTestParameterized.java" />
+        <option value="$PROJECT_DIR$/src/com/meryemalay/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/com/meryemalay/UtilitiesTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="379" />
-    <option name="y" value="68" />
-    <option name="width" value="764" />
+    <option name="x" value="879" />
+    <option name="y" value="67" />
+    <option name="width" value="1184" />
     <option name="height" value="796" />
   </component>
   <component name="ProjectView">
@@ -118,23 +90,23 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="BankingJUnit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankingJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="JUnitChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUnitChallenge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BankingJUnit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankingJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="JUnitChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUnitChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BankingJUnit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankingJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="JUnitChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUnitChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="meryemalay" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -146,11 +118,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -172,44 +144,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BankAccountTestParameterized.deposit">
-    <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.meryemalay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BankingJUnit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.meryemalay" />
-      <option name="MAIN_CLASS_NAME" value="com.meryemalay.BankAccountTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="JUnit.UtilitiesTest.removePairs">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.meryemalay.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="JUnitChallenge" />
       <envs />
-      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
     </configuration>
-    <configuration name="BankAccountTestParameterized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilitiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.meryemalay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="BankingJUnit" />
+      <module name="JUnitChallenge" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.meryemalay" />
-      <option name="MAIN_CLASS_NAME" value="com.meryemalay.BankAccountTestParameterized" />
+      <option name="MAIN_CLASS_NAME" value="com.meryemalay.UtilitiesTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -223,19 +186,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="BankAccountTestParameterized.deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilitiesTest.removePairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.meryemalay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="BankingJUnit" />
+      <module name="JUnitChallenge" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.meryemalay" />
-      <option name="MAIN_CLASS_NAME" value="com.meryemalay.BankAccountTestParameterized" />
-      <option name="METHOD_NAME" value="deposit" />
+      <option name="MAIN_CLASS_NAME" value="com.meryemalay.UtilitiesTest" />
+      <option name="METHOD_NAME" value="removePairs" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -248,21 +211,30 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.meryemalay.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <configuration name="UtilitiesTest.removePairs_firstExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.meryemalay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JUnitChallenge" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.meryemalay" />
+      <option name="MAIN_CLASS_NAME" value="com.meryemalay.UtilitiesTest" />
+      <option name="METHOD_NAME" value="removePairs_firstExample" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BankingJUnit" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <patterns />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -280,15 +252,16 @@
       <method />
     </configuration>
     <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BankAccountTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BankAccountTestParameterized" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BankAccountTestParameterized.deposit" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UtilitiesTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.removePairs_firstExample" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.removePairs" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BankAccountTestParameterized.deposit" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BankAccountTestParameterized" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.removePairs" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UtilitiesTest.removePairs_firstExample" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UtilitiesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -297,59 +270,56 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7c2ec30e-c8d3-40bc-87b9-d7f374ff5624" name="Default" comment="" />
-      <created>1501951770285</created>
+      <changelist id="fa9d67e5-590f-45d0-b2fd-0c10dbd3d99f" name="Default" comment="" />
+      <created>1501972124558</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1501951770285</updated>
+      <updated>1501972124558</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BankAccountTest - 2017.08.05 at 22h 54m 00s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest - 2017.08.06 at 11h 03m 59s.xml">
+      <configuration name="UtilitiesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest - 2017.08.05 at 22h 54m 49s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest - 2017.08.06 at 11h 06m 01s.xml">
+      <configuration name="UtilitiesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTest - 2017.08.05 at 23h 20m 44s.xml">
-      <configuration name="BankAccountTest" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest - 2017.08.06 at 11h 07m 20s.xml">
+      <configuration name="UtilitiesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTestParameterized - 2017.08.05 at 23h 20m 57s.xml">
-      <configuration name="BankAccountTestParameterized" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest - 2017.08.06 at 11h 12m 52s.xml">
+      <configuration name="UtilitiesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTestParameterized - 2017.08.05 at 23h 21m 10s.xml">
-      <configuration name="BankAccountTestParameterized" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_removePairs - 2017.08.06 at 11h 30m 39s.xml">
+      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTestParameterized_deposit - 2017.08.05 at 23h 22m 22s.xml">
-      <configuration name="BankAccountTestParameterized.deposit" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_removePairs_firstExample - 2017.08.06 at 11h 17m 50s.xml">
+      <configuration name="UtilitiesTest.removePairs_firstExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTestParameterized_deposit - 2017.08.05 at 23h 24m 17s.xml">
-      <configuration name="BankAccountTestParameterized.deposit" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_removePairs_firstExample - 2017.08.06 at 11h 20m 05s.xml">
+      <configuration name="UtilitiesTest.removePairs_firstExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTestParameterized_deposit - 2017.08.05 at 23h 24m 45s.xml">
-      <configuration name="BankAccountTestParameterized.deposit" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_removePairs_firstExample - 2017.08.06 at 11h 20m 31s.xml">
+      <configuration name="UtilitiesTest.removePairs_firstExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankAccountTestParameterized_deposit - 2017.08.05 at 23h 24m 58s.xml">
-      <configuration name="BankAccountTestParameterized.deposit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BankAccountTestParameterized_deposit - 2017.08.05 at 23h 25m 30s.xml">
-      <configuration name="BankAccountTestParameterized.deposit" configurationId="JUnit" />
+    <history-entry file="UtilitiesTest_removePairs_firstExample - 2017.08.06 at 11h 27m 45s.xml">
+      <configuration name="UtilitiesTest.removePairs_firstExample" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="379" y="68" width="764" height="796" extended-state="0" />
+    <frame x="879" y="67" width="1184" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922536" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41230366" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49155405" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -383,12 +353,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922536" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40412188" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32591623" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" x="545" y="191" width="350" height="460" />
@@ -407,52 +377,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/meryemalay/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/meryemalay/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/meryemalay/BankAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/com/meryemalay/UtilitiesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/meryemalay/BankAccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1777#1778#0" expanded="true" />
-            <element signature="e#1827#1828#0" expanded="true" />
-            <element signature="e#1883#1884#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#2039#2040#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/meryemalay/BankAccountTestParameterized.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -508,7 +454,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>BankingJUnit</last-edited>
+          <last-edited>JUnitChallenge</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -520,7 +466,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>src</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
