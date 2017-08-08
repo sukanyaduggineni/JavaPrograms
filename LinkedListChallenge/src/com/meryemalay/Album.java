@@ -49,7 +49,7 @@ public class Album {
             return true;
         }
 
-        System.out.println("the song " + title + " is not in this album");
+        System.out.println("The song " + title + " is not in this album");
         return false;
     }
 }
