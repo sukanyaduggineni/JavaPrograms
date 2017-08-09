@@ -15,8 +15,13 @@ public class Main {
         System.out.println(osi);
         osi.setWeapon("Stormbringer");
         saveObject(osi);
-        loadObject(osi);
+        //loadObject(osi);
         System.out.println(osi);
+
+        ISaveable werewolf = new Monster("Werewolf", 20, 40);
+        System.out.println("Strength = "+((Monster) werewolf).getStrength());
+        System.out.println(werewolf);
+        saveObject(werewolf);
     }
 
     public static ArrayList<String> readValues() {
