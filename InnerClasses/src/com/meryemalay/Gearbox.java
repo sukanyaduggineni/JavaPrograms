@@ -13,6 +13,10 @@ public class Gearbox {
         this.gears = new ArrayList<>();
         Gear neutral = new Gear(0, 0.0);
         this.gears.add(neutral);
+
+        for (int i = 0; i < maxGears; i++) {
+            addGear(i, i*5.3);
+        }
     }
 
     public void operateClutch(boolean in){
@@ -34,7 +38,7 @@ public class Gearbox {
             this.currentGear = 0;
         }
     }
-    private double wheelSpeed(int revs){
+    public double wheelSpeed(int revs){
         if(clutchIn){
             System.out.println("Scream!!!");
             return 0.0;
@@ -42,7 +46,7 @@ public class Gearbox {
         return revs * gears.get(currentGear).getRatio();
     }
 
-    public class Gear {
+    private class Gear {
         private int gearNumber;
         private double ratio;
 
