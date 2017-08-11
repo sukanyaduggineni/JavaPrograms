@@ -12,7 +12,7 @@ public class Main {
         parrot.eat();
         parrot.fly();
 
-        Penguin penguin = new Penguin("Parrot");
+        Penguin penguin = new Penguin("Penguin");
         penguin.breathe();
         penguin.eat();
         penguin.fly();
