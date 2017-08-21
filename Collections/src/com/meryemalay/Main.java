@@ -73,6 +73,12 @@ public class Main {
         Collections.reverse(reverseSeats);
         printList(reverseSeats);
 
+        List<Theatre.Seat> priceSeats = new ArrayList<>(theatre.getSeats());
+        priceSeats.add(theatre.new Seat("B00", 13.00));
+        priceSeats.add(theatre.new Seat("A100", 13.00));
+        Collections.sort(priceSeats, Theatre.PRICE_ORDER);
+        printList(priceSeats);
+
     }
 
     public static void printList(List<Theatre.Seat> list){
