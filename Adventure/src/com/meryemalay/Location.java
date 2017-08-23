@@ -12,7 +12,12 @@ public class Location {
     public Location(int locationID, String description, Map<String, Integer> exists) {
         this.locationID = locationID;
         this.description = description;
-        this.exists = new HashMap<>(exists);
+        if(exists != null){
+            this.exists = new HashMap<>(exists);
+        }else{
+            this.exists = new HashMap<>();
+        }
+
         exists.put("Q", 0);
     }
 
