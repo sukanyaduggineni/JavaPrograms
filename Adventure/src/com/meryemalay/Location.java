@@ -9,16 +9,16 @@ public class Location {
     private final String description;
     private final Map<String, Integer> exists;
 
-    public Location(int locationID, String description) {
+    public Location(int locationID, String description, Map<String, Integer> exists) {
         this.locationID = locationID;
         this.description = description;
-        this.exists = new HashMap<>();
+        this.exists = new HashMap<>(exists);
         exists.put("Q", 0);
     }
 
-    public void addExit(String direction, int location){
-        exists.put(direction, location);
-    }
+//    public void addExit(String direction, int location){
+//        exists.put(direction, location);
+//    }
 
     public int getLocationID() {
         return locationID;
@@ -29,6 +29,6 @@ public class Location {
     }
 
     public Map<String, Integer> getExists() {
-        return exists;
+        return new HashMap<>(exists);
     }
 }
