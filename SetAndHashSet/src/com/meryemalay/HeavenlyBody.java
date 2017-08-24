@@ -29,4 +29,21 @@ public final class HeavenlyBody {
     public Set<HeavenlyBody> getSatellites() {
         return new HashSet<>(satellites);
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(this == obj){
+            return true;
+        }
+
+        System.out.println("obj.getClass() is " + obj.getClass());
+        System.out.println("This.getClass() 's " + this.getClass());
+
+        if((obj == null) || (obj.getClass() != this.getClass())){
+            return false;
+        }
+
+        String objName = ((HeavenlyBody) obj).getName();
+        return this.name.equals(objName);
+    }
 }
