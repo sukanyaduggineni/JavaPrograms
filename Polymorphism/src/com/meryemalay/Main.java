@@ -1,100 +1,45 @@
-package com.meryemalay;
+class DemoOverload{
 
-class Movie{
+    public int add(int x, int y){  //method 1
 
-    private String name;
+    return x+y;
 
-    public Movie(String name) {
-        this.name = name;
     }
 
-    public String plot(){
-        return "No plot here";
+    public int add(int x, int y, int z){ //method 2
+
+    return x+y+z;
+
     }
 
-    public String getName() {
-        return name;
+    public int add(double x, int y){ //method 3
+
+    return (int)x+y;
+
     }
+
+    public int add(int x, double y){ //method 4
+
+    return x+(int)y;
+
+    }
+
 }
 
-class Jaws extends Movie{
-    public Jaws() {
-        super("Jaws");
+class Test{
+
+    public static void main(String[] args){
+
+    DemoOverload demo=new DemoOverload();
+
+    System.out.println(demo.add(2,3));      //method 1 called
+
+    System.out.println(demo.add(2,3,4));    //method 2 called
+
+    System.out.println(demo.add(2,3.4));    //method 4 called
+
+    System.out.println(demo.add(2.5,3));    //method 3 called
+
     }
 
-    public String plot(){
-        return "A shark eats lots of people";
-    }
-}
-
-class IndependenceDay extends Movie{
-    public IndependenceDay() {
-        super("Independence Day");
-    }
-
-    @Override
-    public String plot() {
-        return "Alien attempt to take over planet earth";
-    }
-}
-
-class MazzeRunner extends Movie{
-    public MazzeRunner() {
-        super("Mazze Runner");
-    }
-
-    @Override
-    public String plot() {
-        return "Kids try and escape a maze";
-    }
-}
-
-class StarWars extends Movie{
-    public StarWars() {
-        super("StarWars");
-    }
-
-    @Override
-    public String plot() {
-        return "Imperial Forces try to take over the universe";
-    }
-}
-
-class ForgetableMovie extends Movie{
-    public ForgetableMovie() {
-        super("Forgetable Movie");
-    }
-
-   //No plot method
-}
-
-public class Main {
-
-    public static void main(String[] args) {
-        for (int i = 0; i <11 ; i++) {
-            Movie movie = randomMovie();
-            System.out.println("Movie # "+ i +
-                                        ": " + movie.getName() + "\n" +
-                                        "Plot: "+ movie.plot() + "\n");
-        }
-    }
-
-    public static Movie randomMovie(){
-        //Math.random(): return a double greater than or equal to 0.0 and less than 1.0
-        int randomNumber = (int) (Math.random() * 5) +1;
-        System.out.println("Random number generated was: "+ randomNumber);
-        switch (randomNumber){
-            case 1:
-                return new Jaws();
-            case 2:
-                return new IndependenceDay();
-            case 3:
-                return new MazzeRunner();
-            case 4:
-                return new StarWars();
-            case 5:
-                return new ForgetableMovie();
-        }
-        return null;
-    }
 }
